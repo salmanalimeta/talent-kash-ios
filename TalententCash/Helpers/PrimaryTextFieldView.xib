@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PrimaryTextFieldView" customModule="Talent_Cash" customModuleProvider="target">
+            <connections>
+                <outlet property="textInput" destination="fbt-ej-4Eq" id="vTI-B9-UO9"/>
+                <outlet property="title" destination="hZv-XE-ahM" id="yNP-ql-esc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="PrimaryTextFieldView" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="85"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZv-XE-ahM">
+                    <rect key="frame" x="0.0" y="10" width="47" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="1UA-nf-Ygw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" name="titleDarkColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fbt-ej-4Eq">
+                    <rect key="frame" x="0.0" y="44" width="5" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="DPP-xb-XaL"/>
+                    </constraints>
+                    <color key="textColor" name="separator"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hXt-S7-nR9">
+                    <rect key="frame" x="0.0" y="84" width="414" height="1"/>
+                    <color key="backgroundColor" name="separator"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="Lh1-Xq-9j0"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="hZv-XE-ahM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="2tI-6W-BW3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="hXt-S7-nR9" secondAttribute="trailing" id="Djv-As-R4r"/>
+                <constraint firstItem="hXt-S7-nR9" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="GzJ-Lr-iXG"/>
+                <constraint firstItem="hXt-S7-nR9" firstAttribute="top" secondItem="fbt-ej-4Eq" secondAttribute="bottom" constant="5" id="IJQ-po-zIH"/>
+                <constraint firstItem="hZv-XE-ahM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="QJH-bV-Kn4"/>
+                <constraint firstAttribute="bottom" secondItem="hXt-S7-nR9" secondAttribute="bottom" id="VTu-iR-15A"/>
+                <constraint firstItem="fbt-ej-4Eq" firstAttribute="top" secondItem="hZv-XE-ahM" secondAttribute="bottom" constant="12" id="jCH-Af-PkW"/>
+                <constraint firstItem="fbt-ej-4Eq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="wsA-0V-Zko"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="140.57971014492756" y="55.245535714285715"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="separator">
+            <color red="0.88627450980392153" green="0.88627450980392153" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="titleDarkColor">
+            <color red="0.48627450980392156" green="0.48627450980392156" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

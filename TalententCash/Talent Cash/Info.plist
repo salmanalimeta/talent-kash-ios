@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLIconFile</key>
+			<string>talent cash1 1</string>
+			<key>CFBundleURLName</key>
+			<string>com.soft.Talent-Cash</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb2404991162981573</string>
+				<string>com.googleusercontent.apps.24012201136-ejituisa5djpun2vp0co3js82f461kdh</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLIconFile</key>
+			<string>talent cash1 1</string>
+			<key>CFBundleURLName</key>
+			<string>com.soft.Talent-Cash</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>https</string>
+			</array>
+		</dict>
+		<dict/>
+	</array>
+	<key>FacebookAppID</key>
+	<string>2404991162981573</string>
+	<key>FacebookAutoLogAppEventsEnabled</key>
+	<true/>
+	<key>FacebookDisplayName</key>
+	<string>Talent Cash</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
+	<key>setAdvertiserIDCollectionEnabled</key>
+	<true/>
+	<key>setAdvertiserTrackingEnabled</key>
+	<true/>
+	<key>setAutoLogAppEventsEnabled</key>
+	<true/>
+</dict>
+</plist>

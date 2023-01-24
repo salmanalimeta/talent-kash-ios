@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CompletedCell" reuseIdentifier="CompletedCell" id="AtH-ag-77D" customClass="CompletedCell" customModule="Talent_Cash" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="314" height="64"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="314" height="64"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Til-1w-Z9g">
+                        <rect key="frame" x="0.0" y="0.0" width="314" height="64"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DefaultUserImage" translatesAutoresizingMaskIntoConstraints="NO" id="aDn-Bb-3dL">
+                                <rect key="frame" x="14" y="14" width="44" height="36"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ji6-Kz-G1g">
+                                <rect key="frame" x="277" y="22" width="12" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="12" id="CsU-zk-3Vg"/>
+                                    <constraint firstAttribute="height" constant="20" id="qOR-6K-pfJ"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="CompletedClickMe"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arsalan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uz4-vz-sea">
+                                <rect key="frame" x="66" y="14" width="56" height="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service ID-0023412" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cvH-UZ-gi0">
+                                <rect key="frame" x="66" y="33" width="130" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" name="separator"/>
+                                <color key="highlightedColor" name="separator"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="background"/>
+                        <constraints>
+                            <constraint firstItem="Uz4-vz-sea" firstAttribute="leading" secondItem="aDn-Bb-3dL" secondAttribute="trailing" constant="8" symbolic="YES" id="AB3-E6-Cbb"/>
+                            <constraint firstItem="aDn-Bb-3dL" firstAttribute="leading" secondItem="Til-1w-Z9g" secondAttribute="leading" constant="14" id="Evr-Wb-fpE"/>
+                            <constraint firstItem="Uz4-vz-sea" firstAttribute="top" secondItem="Til-1w-Z9g" secondAttribute="top" constant="14" id="IwG-Gw-vTf"/>
+                            <constraint firstItem="ji6-Kz-G1g" firstAttribute="top" secondItem="Til-1w-Z9g" secondAttribute="top" constant="22" id="R1c-oO-1Zj"/>
+                            <constraint firstAttribute="bottom" secondItem="cvH-UZ-gi0" secondAttribute="bottom" constant="14" id="T6h-23-de8"/>
+                            <constraint firstItem="cvH-UZ-gi0" firstAttribute="leading" secondItem="aDn-Bb-3dL" secondAttribute="trailing" constant="8" symbolic="YES" id="a23-vM-iN6"/>
+                            <constraint firstAttribute="bottom" secondItem="aDn-Bb-3dL" secondAttribute="bottom" constant="14" id="aVj-qj-oCx"/>
+                            <constraint firstItem="ji6-Kz-G1g" firstAttribute="centerY" secondItem="aDn-Bb-3dL" secondAttribute="centerY" id="j07-HD-fTO"/>
+                            <constraint firstItem="aDn-Bb-3dL" firstAttribute="centerY" secondItem="Til-1w-Z9g" secondAttribute="centerY" id="tDq-NT-MQB"/>
+                            <constraint firstAttribute="trailing" secondItem="ji6-Kz-G1g" secondAttribute="trailing" constant="25" id="y8G-US-zGT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="9Pb-77-ahC"/>
+            <color key="backgroundColor" name="background"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Til-1w-Z9g" secondAttribute="trailing" id="I7O-D8-ftk"/>
+                <constraint firstAttribute="bottom" secondItem="Til-1w-Z9g" secondAttribute="bottom" id="pln-X5-4fQ"/>
+                <constraint firstItem="Til-1w-Z9g" firstAttribute="leading" secondItem="AtH-ag-77D" secondAttribute="leading" id="smu-9n-awb"/>
+                <constraint firstItem="Til-1w-Z9g" firstAttribute="top" secondItem="AtH-ag-77D" secondAttribute="top" id="tgp-LR-xki"/>
+            </constraints>
+            <size key="customSize" width="314" height="64"/>
+            <connections>
+                <outlet property="backView" destination="Til-1w-Z9g" id="eUv-M6-IyN"/>
+                <outlet property="serviceId" destination="cvH-UZ-gi0" id="sCh-p9-47h"/>
+                <outlet property="userName" destination="Uz4-vz-sea" id="ACx-XX-gzJ"/>
+            </connections>
+            <point key="canvasLocation" x="169.56521739130437" y="145.98214285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="CompletedClickMe" width="12" height="20"/>
+        <image name="DefaultUserImage" width="44" height="46"/>
+        <namedColor name="background">
+            <color red="0.10196078431372549" green="0.10196078431372549" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="separator">
+            <color red="0.30980392156862746" green="0.30980392156862746" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>
